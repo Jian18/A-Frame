@@ -10,12 +10,58 @@
   <body>
     <a-scene background="color: #333333">
       <a-box id="myBox"
-        width="3"
+        width="1"
         height="2"
         depth="1"
         color="#BBAA33" 
-        shadow>
+        shadow
+        position="1 -1 -10"
+        rotation="0 55 1" 
+        scale="2 2 2">
       </a-box>
+      
+
+      <a-sphere
+      width="3"
+      height="2"
+      depth="1"
+      color="#ae81ff" 
+      shadow
+      position="1 -1 -20"
+      rotation="0 55 1" 
+      scale="2 2 2"
+      >
+
+      <a-ring
+      width="5"
+      height="4"
+      depth="1"
+      position="5 0 -6"
+      color: #305f83
+      >
+      </a-ring>
+
+      <a-cone
+      width="5"
+      height="3"
+      depth="4"
+      position="3 2 -10"
+      color="#FF5A5F"
+      
+      >
+
+      </a-cone>
+
+      <a-plane 
+      position="1 5 -1" 
+      rotation="-90 0 0" 
+      width="10" 
+      height="10" 
+      scale="5 5 5"
+      color="#DAEFB3">
+    </a-plane>
+
+      </a-sphere>
     </a-scene>
   </body>
 </html>
