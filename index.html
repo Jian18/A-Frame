@@ -1,20 +1,63 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Hello World, WebVR! • A-Frame</title>
-    <meta name="viewport" content="width=device-width">
-    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-    <script src="scripts/main.js" defer></script>
-    <link href="styles/main.css" rel="stylesheet" />
-  </head>
-  <body>
-    <h1>AFrame workshop</h1>
-    <a href="01HelloWorld/">01HelloWorld</a><br>
-    <a href="02Shape/">02Shape</a><br>
-    <a href="03Textures/">03Textures</a><br>
-    <a href="04Animation/">04Animation</a><br>
-    <a href="05Interaction/">05Interaction</a><br>
-    <a href="06InteractionHeadset/">06InteractionHeadset</a><br>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Hello World, WebVR! • A-Frame</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script src="scripts/main.js" defer></script>
+  <link href="styles/main.css" rel="stylesheet" />
+
+  <style>
+    /* colors
+      off white: #FFFAFF
+      royal blue dark: #0A2463
+      cerise (pink): #D8315B
+      dark black: #1E1B18
+     */
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #FFFAFF;
+    }
+
+    a {
+      color: #0A2463;
+      margin: 16px;
+      padding: 16px;
+      display: inline-block;
+      border: 3px solid #0A2463;
+      text-decoration: none;
+    }
+
+    a:active,
+    a:hover {
+      color: #FFFAFF;
+      background-color: #0A2463;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>AFrame workshop Jian</h1>
+  <div class="links">
+    <a href="01HelloWorld/">01 HelloWorld</a><br>
+    <a href="02Shape/">02 Shape</a><br>
+    <a href="03Textures/">03 Textures</a><br>
+    <a href="04Animation/">04 Animation</a><br>
+    <a href="05Interaction/">05 Interaction</a><br>
+    <a href="06InteractionHeadset/">06 InteractionHeadset</a><br>
+  </div>
+</body>
+
 </html>
